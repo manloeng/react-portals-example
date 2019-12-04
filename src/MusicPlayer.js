@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
 
 /**
  * A Portal can have a shared state with it's parent.
@@ -18,5 +18,17 @@ class MusicPlayer extends Component {
     );
   }
 }
+
+// const MusicPlayer = props => {
+//   return (
+//     <div>
+//       <div className="portal">
+//         <h1>{`Always Visible Mock Media Player! ${props.parentState}`}</h1>
+//         {/* <h1>Hi</h1> */}
+//       </div>
+//       ), document.getElementById("portal")
+//     </div>
+//   );
+// };
 
 export default MusicPlayer;
